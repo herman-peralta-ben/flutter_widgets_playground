@@ -22,3 +22,8 @@ fvm use stable
 ```bash
 fvm flutter pub get
 ```
+
+## Widgets
+
+* [GoogleMaps](./doc/google_maps/google_maps.md).
+

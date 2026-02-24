@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
       body: ListView.builder(
         itemCount: _examples.length,
         itemBuilder: (_, i) =>
-            OutlinedButton(onPressed: () => context.go(_examples[i].path),
+            OutlinedButton(onPressed: () => context.push(_examples[i].path),
             child: Text(_examples[i].name),
         ),
       ),
