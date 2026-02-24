@@ -1,16 +1,24 @@
 # flutter_widgets_playground
 
-A new Flutter project.
+A Playground project to play around with Flutter Widgets.
 
-## Getting Started
+## Getting started
 
-This project is a starting point for a Flutter application.
+This project uses `FVM` (Flutter Version Management). When using terminal, make sure to prefix `flutter` and `dart` commands with `fvm`, e.g. `fvm flutter pub get`.
 
-A few resources to get you started if this is your first Flutter project:
+## FVM
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Files and Dirs
+    - `.fvmrc`: Indicates Flutter version
+    - `.fvm`: Ignored in git, contains symlinks to the local Flutter installations on FVM.
+    - `.vscode/settings.json`: Includes `"dart.flutterSdkPath": ".fvm/versions/stable"` which tells VSCode to use the local Flutter version.
+        - To confirm the Flutter version used on VSCode, run `>Flutter: Run Flutter Doctor` from the command pallete `Cmd+Shift+P`, and should see a line like `Flutter version 3.41.1 on channel stable at /Users/herman.peralta/fvm/versions/stable`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Set the last stable Flutter version
+```bash
+fvm use stable
+```
+* Update the dependencies
+```bash
+fvm flutter pub get
+```
