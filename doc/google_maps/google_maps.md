@@ -1,5 +1,9 @@
 # Flutter Google Maps
 
+<p align="center" width="100%">
+<video src="https://private-user-images.githubusercontent.com/17134791/554815282-a0cb1661-8d7f-4b77-b9e0-b840bcb3231a.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzIwMzE1MjYsIm5iZiI6MTc3MjAzMTIyNiwicGF0aCI6Ii8xNzEzNDc5MS81NTQ4MTUyODItYTBjYjE2NjEtOGQ3Zi00Yjc3LWI5ZTAtYjg0MGJjYjMyMzFhLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMjI1VDE0NTM0NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE2YWNiNGFjZWY1Mjg1OGRmNjRhYmIzOTBjYjRlYmZhZTM4ZGUzOTNmZjFhOWMzN2Q2YmE5N2I0NDY1ZDY5OWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._kwyJf86szhx2cFfS60o4aFyGVKVGRt7ZodiBvAhZR4" width="100%" controls></video>
+</p>
+
 Look for comments with `[!GoogleMapsConfig]` for detailed implementations. 
 
 * 🚨 Get the maps key from your [Google Cloud Console](https://console.cloud.google.com/).
