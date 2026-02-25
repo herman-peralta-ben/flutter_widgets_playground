@@ -27,3 +27,15 @@ fvm flutter pub get
 
 * [GoogleMaps](./doc/google_maps/google_maps.md).
 
+## iOS
+### Compilation issues ?
+Run the following script from `flutter_widgets_playground` dir.
+```bash
+fvm flutter clean
+fvm flutter pub get
+cd ios
+rm -rf Pods
+pod install
+cd ..
+fvm flutter run -d "iPhone 17 Pro"
+```
