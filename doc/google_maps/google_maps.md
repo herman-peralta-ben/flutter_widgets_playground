@@ -35,7 +35,7 @@ Look for comments with `[!GoogleMapsConfig]` for detailed implementations.
 
 ## iOS
 
-- 🚨 Create `ios/Flutter/Secrets.xcconfig` and set `MAPS_API_KEY=<KEY>` (make sure this is ignored in git).
+- 🚨 Create `ios/Secrets.xcconfig` and set `MAPS_API_KEY=<KEY>` (make sure this is ignored in git).
 - Set min iOS version to 14.0 in `ios/Podfile`: `platform :ios, '14.0'`.
 - Open `ios/Runner.xcworkspace` in Xcode.
     - In the left panel, select `Runner`, then select `Runner` in project, then the `Info` tab. 

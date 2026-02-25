@@ -34,4 +34,4 @@ Runner/GeneratedPluginRegistrant.*
 !default.perspectivev3
 
 # Secrets [!GoogleMapsConfig]
-Flutter/Secrets.xcconfig
+Secrets.xcconfig
